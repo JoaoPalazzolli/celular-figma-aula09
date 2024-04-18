@@ -1,81 +1,72 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-main{
-    background-color: white;
-    width: auto;
-    height: auto;
+main {
+    display:flex;
+    flex-direction: row;
 }
 
 .container{
     display: flex;
-
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    margin-left: 165px;
-    margin-top: 160px;
-
     width: 520px;
-    height: 278px;
-
+    padding-bottom: 36px;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 16px;
+    margin-top: 160px;
+    margin-left: 165px;
 }
 
 .titulo{
-    font-size: 36px;
-    font-family: "Red Rose";
-    font-style: normal;
-    font-weight: 1000;
-
-    height: 96px;
-    
     color: #091133;
+    font-family: "Red Rose";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .texto{
-    height: 130px;
     color: #6F7CB2;
+    font-family: Roboto;
     font-size: 16px;
-    font-family: "roboto";
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-}
-
-.btn{
-    font-family: "roboto";
-    color: white;
-    font-size: medium 16px;
-    font-style: normal;
-    font-weight: 400;
-
-    background-color: #111B47;
-    width: 190px;
-    height: 36px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 3px;    
 }
 
 .container_btn{
     width: 520px;
     height: 52px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    gap: 29.15px;
     align-items: flex-start;
-    margin-top: 50px;
-    margin-left: 165px;
+    margin-left: 200px;
 }
 
-.btn:hover{
+.btn{
+    font-family: "Roboto";
+    color: #FFF;
+    font-size: medium 16px;
+    font-style: normal;
+    width: 150px;
+    height: 34px;
+    border-radius: 2px;
+    background: #111B47;
+    border-radius:3px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    text-align: center;
+}
+
+.btn:hover {
     border: 3px solid #091133;
     background-color: white;
     color: #091133;
@@ -84,18 +75,6 @@ main{
 
 .image_container{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    margin-left: 783px;
-    margin-top: -450px;
-
-}
-
-.image{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 492px;
-    height: 1031px;
+    justify-content: flex-end;
+    margin-top: 100px; 
 }
