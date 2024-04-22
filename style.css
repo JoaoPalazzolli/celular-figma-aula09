@@ -3,9 +3,15 @@
     margin: 0;
 }
 
-main {
+
+main{
     display:flex;
     flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
 }
 
 .container{
@@ -19,22 +25,98 @@ main {
     margin-left: 165px;
 }
 
+.container_celular{
+    display: flex;
+    width: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 160px;
+    margin-left: 165px;
+}
+
+.container_icon12{
+    display: flex;
+    width: 255px;
+    height: 138px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 150px;
+    margin-left: 165px;
+}
+
+.container_image_celular{
+    display: flex;
+    width: 540px;
+    height: 524.31px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 124px;
+    margin-left: 165px;
+}
+
+.titulo_icon12{
+    color: #091133;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 12px;
+    width: 255px;
+    height: 26px;
+}
+
 .titulo{
     color: #091133;
     font-family: "Red Rose";
     font-size: 36px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 36px;
 }
 
+.titulo_celular{
+    color: #091133;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    width: 540px;
+}
+
 .texto{
+    color: #6F7CB2;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.texto_celular{
+    width: 540px;
     color: #6F7CB2;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+.texto_icon12{
+    width: 540px;
+    color: #5D6970;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 255px;
+    height: 54px;
 }
 
 .container_btn{
@@ -71,10 +153,22 @@ main {
     background-color: white;
     color: #091133;
     border-radius: 3px;
+
+    a{
+        color: #091133;
+    }
 }
 
 .image_container{
     display: flex;
     justify-content: flex-end;
     margin-top: 100px; 
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 36px;
+    height: 36px;
 }
